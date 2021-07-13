@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@progress/kendo-licensing": "^1.2.0",
+    "@progress/kendo-react-buttons": "^4.7.0",
     "@progress/kendo-react-dropdowns": "^4.7.0",
     "@progress/kendo-react-pdf": "^4.7.0",
     "@testing-library/jest-dom": "^5.14.1",

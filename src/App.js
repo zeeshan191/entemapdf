@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Quotationpdf from './Quotationpdf';
 import Purchasepdf from './Purchasepdf';

@@ -1,8 +1,8 @@
-import React,{ useRef, useState, useEffect } from 'react'
+import React,{ useRef, useState} from 'react'
 import './Qpdf.css'
 import { Button } from '@progress/kendo-react-buttons';
 import { DropDownList } from '@progress/kendo-react-dropdowns';
-import { PDFExport, savePDF } from '@progress/kendo-react-pdf';
+import { PDFExport} from '@progress/kendo-react-pdf';
 function Quotationpdf() {
    const pdfExportComponent = useRef(null);
 	const [layoutSelection, setLayoutSelection] = useState({ text: "A4", value: "size-a4"});
@@ -49,7 +49,7 @@ function Quotationpdf() {
       <div className="print-quot">
           <div className="row">
               <div className="col-sm-3 logo-div">
-                      <img src="logo.png" style={{width:'100%'}}/>
+                      <img src="logo.png" style={{width:'100%'}} alt="logo"/>
               </div>
               <div className="col-sm-4 print-quot1">
                   <h1>Quotation</h1>

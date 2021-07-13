@@ -1,4 +1,4 @@
-import React,{ useRef, useState, useEffect } from 'react'
+import React,{ useRef, useState} from 'react'
 import './Ppdf.css'
 import { Button } from '@progress/kendo-react-buttons';
 import { DropDownList } from '@progress/kendo-react-dropdowns';
@@ -47,7 +47,7 @@ function Purchasepdf() {
      <div className="print-quot">
          <div className="row">
              <div className="col-sm-3 logo-div">
-                     <img src="logo.png" style={{width:'100%'}}/>
+                     <img src="logo.png" style={{width:'100%'}} alt="logo"/>
              </div>
              <div className="col-sm-4 print-quot1">
                  <h1>PURCHASE ORDER</h1>
@@ -413,7 +413,7 @@ function Purchasepdf() {
                     <div className="bot-cl10">
                         <h1>Issued by</h1>
                         <h5>Authorised Signatory<br/>(Entema Al Shamal Gen. cont. Est)</h5>
-                        <h4></h4>
+                        <h4>zeeshan</h4>
                     </div>
                 </div>
 

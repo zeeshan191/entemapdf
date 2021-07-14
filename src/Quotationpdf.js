@@ -62,7 +62,7 @@ function Quotationpdf() {
                       <div className="col-sm-7 col-xs-8 pt-right">
                                                               Jul 13, 2021                                </div>
                   </div>
-
+                
                   <div className="row">
                       <div className="col-sm-5 col-xs-4 pt-left">Quot# :</div>
                       <div className="col-sm-7 col-xs-8 pt-right">
@@ -88,7 +88,9 @@ function Quotationpdf() {
               <strong>VAT No:</strong> 310005823700003</p>
       </div>
   </div>
-
+  <div id="watermark">
+                Not Approved
+           </div>
 
 <div className="col-sm-6 right1">
             <div className="print-detail3 pd3">
